@@ -1,8 +1,0 @@
-# Site settings
-title: My First Website 
-author: Patricia 
-  name: Patricia 
-description: "This is my very first website! "
-
-# Build settings
-remote_theme: jekyll/minima
