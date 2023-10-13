@@ -6,18 +6,71 @@ filename: index.html
 
 <!DOCTYPE html>
 
-<html>
+<html lang = "en">
   <head> 
-  <title> My Homepage</title>
+    <meta charset= "utf-8"> 
+    <meta content = "width=device-width, initial-scale=1.0">
+    
+  <title> My Personal Library </title>
   </head>
 
   <body> 
-  <h1> Welcome to my Home Page!</h1>
+    <header id = "header"> 
+      <div class = "container"> 
+        
+        <h1><a href = "index.html"> Welcome to my personal library website!</a></h1>
   
-  <h2> My name is Patricia and this is my website for IT 3203. </h2>
+        <h2> My name is Patricia and this is my website project for Intro to Web Development. </h2>
     
-    <p> I am majoring in Informaition Technology and my website is going to be a personal library blog! 
-    It is a work in progress but I'm <b> so excited </b> to learn more! </p>
+
+        <nav id = "navbar" class = "navbar"> 
+          <ul>
+            <li> <a class = "nav- link active" href="#header">Home</a></li>
+            <li> <a class= "nav-link" href = "#about"> About</a></li>
+            <li> <a class= "nav-link" href = "#reviews"> Reviews</a></li>
+            <li> <a class= "nav-link" href = "#recommendations"> Recommendations</a></li>
+            <li> <a class = "nav-link" href = "#contact"> Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+ <section id = "about" class = "about"> 
+   <div class = "about-me container"> 
+     
+    <div class = "section title"> 
+    <h2> About </h2>
+      <p> Here is where you can learn more about me! </p>
+    </div>
+     <p> My name is Patricia and I am a junior in college. I have been an avid reader since I was a child. A few of my favorite genres include mystery, thriller, and historical fiction. </p>
+     <p> I will be using this site as a personal library where I will give reviews of books I have read as well as recommendations based on my reviews. </p>
+   </div>
+ </section>
+
+    <section id = "reviews" class = "reviews">
+      <div class = "container"> 
+
+        <div class = "section-title"> 
+          <h2> Reviews </h2>
+          <p> Check out my reviews! </p>
+        </div>
+
+        <div class = "row"> 
+          <div class = "col-lg-6"> 
+            <h3 class = "reviews-title"> Thrillers </h3>
+            <p> This is where you will find reviews of the mystery books I have read. </p>
+            <h4> The Silent Patient by Alex Michaelides </h4>
+            <p> I thoroughly enjoyed this book. I read this book in one day because I just couldn't put it down. There is a huge twist that I did not see coming and the ending was perfect. The ending perfectly tied together all the elements of the story in a way that made my jaw drop. </p>
+            <h3> Historical Fiction </h3>
+            <h4> The Nightingale by Kristin Hannah </h4>
+            <p> This book was a story about two sisters trying to find a way to survive WWII in France. This book was an amazing tear-jerker. It was beautifully written and caused so many tears, but ended in a way that I was not expecting. It's a longer book, but it's well worth the read.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+            
+     
   
   </body>
 
