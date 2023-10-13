@@ -1,4 +1,4 @@
-layout: page 
+layout: minima
 title: "Reviews" 
 permalink: pghelf.github.io/reviews 
 
