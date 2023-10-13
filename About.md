@@ -1,4 +1,4 @@
-layout: page 
+layout: minima
 title: "About" 
 permalink: pghelf.github.io/about
 
