@@ -1,4 +1,4 @@
-layout: page 
+layout: minima
 title: "Recommendations" 
 permalink: pghelf.github.io/recommendations 
 
