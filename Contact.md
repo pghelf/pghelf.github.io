@@ -1,4 +1,4 @@
-layout: page 
+layout: minima
 title: "Contact" 
 permalink: pghelf.github.io/contact 
 
